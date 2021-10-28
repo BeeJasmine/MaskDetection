@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>
+            Schéma de l'application 
+        </title>
+
+        <meta charset="utf-8" />
+
+        <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+         <script>mermaid.initialize({startCadreSDnLoad:true});</script>
+    </head>
+    <body >
+      <div class="mermaid">
+            flowchart  LR;
+
+
+
+            classDef database fill:lightgreen;
+            classDef table fill:pink;
+            classDef col fill:beige;
+
+
+            data.db:::database;
+            usersTable:::table;
+            usersPictures:::table;
+            picturesTable:::table;
+
+            id:::col;
+            id_user:::col;
+            id_picture:::col;
+            BytesIO:::col;
+            username:::col;
+            password:::col;
+            insertion_date:::col;
+
+            data.db-.-> usersTable
+            data.db-.-> usersPictures
+            data.db<-.-> picturesTable
+            usersTable<-.->username
+            usersTable<-.->password    
+            usersTable<-.->insertion_date
+            usersTable<-.->id_user
+
+            usersPictures<-.->id_user
+            usersPictures<-.->id_picture
+            usersPictures<-.->id     
+
+            picturesTable<-.->id_picture
+            picturesTable<-.->BytesIO
+
+            database:::database---table:::table---colonne:::col;
+
+
+        </div>
+    </body>
+</html>

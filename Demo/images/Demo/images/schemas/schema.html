@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>
+            Schéma de l'application 
+        </title>
+
+        <meta charset="utf-8" />
+
+        <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+         <script>mermaid.initialize({startCadreSDnLoad:true});</script>
+    </head>
+    <body >
+      <div class="mermaid">
+            flowchart  LR;
+
+
+
+            classDef app fill:lightgreen;
+            classDef objet fill:pink;
+            classDef bdd fill:beige;
+
+
+            Application:::app;
+            Detection_du_port_du_masque:::objet;
+            Gestion_des_utilisateurs:::objet;
+
+            Consulter_base_de_données_images:::objet;
+
+            Application-.-> Detection_du_port_du_masque
+            Application-.-> Gestion_des_utilisateurs
+            Application<-.->Consulter_base_de_données_images 
+            
+            Detection_du_port_du_masque<-.->FaceDetectionModel_MaskDetectionModel
+
+            Gestion_des_utilisateurs<-.->data.db
+            Consulter_base_de_données_images<-.->MongoDB_collection
+
+
+            Fichier_installations_requises---Reporting_logs---Architecture_app
+
+
+        </div>
+    </body>
+</html>

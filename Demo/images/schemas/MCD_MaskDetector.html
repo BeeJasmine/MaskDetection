@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>
+            Schéma des meta-données de la base de données d'entraînement 
+        </title>
+
+        <meta charset="utf-8" />
+
+        <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+         <script>mermaid.initialize({startCadreSDnLoad:true});</script>
+    </head>
+    <body >
+      <div class="mermaid">
+            flowchart  LR;
+
+
+
+            classDef database fill:lightgreen;
+            classDef collection fill:pink;
+            classDef col fill:beige;
+
+
+            Mask_Detector:::database;
+            training:::collection;
+            _id:::col;
+            image:::col;
+            text_label:::col;
+            path:::col;
+           
+            Mask_Detector<-.->training
+            training<-.-> _id
+            training<-.-> image
+            training<-.-> path
+            training<-.->text_label    
+
+            database:::database---collection:::collection---colonne:::col;
+
+
+
+        </div>
+    </body>
+</html>
