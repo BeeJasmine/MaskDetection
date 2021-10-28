@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>
+            Schéma de l'application 
+        </title>
+
+        <meta charset="utf-8" />
+
+        <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+         <script>mermaid.initialize({startCadreSDnLoad:true});</script>
+    </head>
+    <body >
+      <div class="mermaid">
+            flowchart  LR;
+
+
+
+            classDef database fill:lightgreen;
+            classDef collection fill:pink;
+            classDef col fill:beige;
+
+
+            Mask_Detector:::database;
+            training:::collection;
+            _id:::col;
+            folder:::col;
+            image:::col;
+            label:::col;
+            text_label:::col;
+            BytesStringIO:::col;
+            insertion_date:::col;
+            path:::col;
+           
+            Mask_Detector<-.->training
+            training<-.-> _id
+            training<-.-> folder
+            training<-.-> image
+            training<-.-> path
+            training<-.->label
+            training<-.->text_label    
+            training<-.->insertion_date
+            training<-.->BytesStringIO
+
+            database:::database---collection:::collection---colonne:::col;
+
+
+        </div>
+    </body>
+</html>

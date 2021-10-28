@@ -1,0 +1,121 @@
+<html>
+    <head>
+        <title>
+            Cartographie des fichiers
+        </title>
+
+        <meta charset="utf-8" />
+
+        <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+         <script>mermaid.initialize({startCadreSDnLoad:true});</script>
+    </head>
+    <body >
+      <div class="mermaid">
+            flowchart  LR;
+
+
+            Fonction:::function;
+            Fichier;
+            Dossier:::dossier
+            Dossier-->Fichier-->Fonction;
+
+
+
+            classDef function fill:lightgreen;
+            classDef objet fill:orange;
+            classDef method fill:yellow;
+            classDef dossier fill:beige;
+
+
+            Webcam_Video_Management:::dossier;
+            Webcam_Video_Management --> VideoTransformer.py;
+            get_masks:::function;
+            VideoTransformer.py-.->get_masks
+
+
+            Security:::dossier;
+            Security --> hashing.py;
+            make_hashes:::function;
+            check_hashes:::function;
+            hashing.py -.-> make_hashes;
+            hashing.py -.-> check_hashes;
+
+
+            DB_Management:::dossier;
+            DB_Management-->DB_Mongo.py
+            client_mongodb:::function;
+            DB_Mongo.py-->client_mongodb
+
+            DB_Management--> wMaskwoMask_MongoDB_collections.ipynb
+            DB_Management-->DB_SQLite.py
+            DB_SQLite.py-.->
+            createUsersTable:::function
+            DB_SQLite.py-.->createUsersTable
+            checkUserName:::function;
+            DB_SQLite.py-.->checkUserName
+            add_userdata:::function;
+            DB_SQLite.py-.->add_userdata
+            login_user:::function;
+            DB_SQLite.py-.-> login_user
+            view_all_users:::function;
+            DB_SQLite.py-.->view_all_users
+
+
+
+
+            css:::dossier;
+            css-->styles.css;
+
+            Style:::dossier;
+            Style --> styles.py;
+            set:::function;
+            styles.py -.-> set;
+
+            Models:::dossier;
+            face_detector:::dossier;
+            face_detector -.-> deploy.prototxt
+            face_detector -.-> res10_300x300_ssd.caffemodel
+            face_detector-.-> mask_detector.model
+            notebooks:::dossier;
+            Models-->face_detector;
+            Models-->notebooks;
+            notebooks-.->retrain_MobileNet.ipynb
+            notebooks-.->evaluate_cnn_colab.ipynb
+            Models-->to_load_models.py
+            load_cnn_model:::function;
+            load_face_detector_and_model:::function;
+            to_load_models.py-.->load_cnn_model
+            to_load_models.py-.->load_face_detector_and_model
+
+
+            Dataset:::dossier
+            with_mask:::dossier
+            without_mask:::dossier 
+            Dataset-->without_mask
+            Dataset-->with_mask
+
+
+            main:::function;
+            app.py-.->main
+
+
+            main --> Security;
+            main--> Webcam_Video_Management;
+            main-->DB_Management;
+            main --> Style;
+            main-->css;
+            main--> Models;
+            main--> Dataset
+
+            report.log
+            requirements.txt
+            config.py
+            architecture.html
+            README.md
+
+
+            
+        </div>
+    </body>
+
+</html>

@@ -1,0 +1,1072 @@
+2021-10-26 02:10:45.332699: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'libcudart.so.10.1'; dlerror: libcudart.so.10.1: cannot open shared object file: No such file or directory
+2021-10-26 02:10:45.332743: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2021-10-26 02:11:01.826 Model loading
+2021-10-26 02:11:02.200318: W tensorflow/stream_executor/platform/default/dso_loader.cc:59] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2021-10-26 02:11:02.200364: W tensorflow/stream_executor/cuda/cuda_driver.cc:312] failed call to cuInit: UNKNOWN ERROR (303)
+2021-10-26 02:11:02.200438: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (jasminelabeille-UX331UA): /proc/driver/nvidia/version does not exist
+2021-10-26 02:11:02.200816: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN)to use the following CPU instructions in performance-critical operations:  AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2021-10-26 02:11:02.232215: I tensorflow/core/platform/profile_utils/cpu_utils.cc:104] CPU Frequency: 1999965000 Hz
+2021-10-26 02:11:02.232853: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x7f67a27bb8c0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-10-26 02:11:02.232894: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2021-10-26 02:11:03.857 Model loaded
+2021-10-26 02:11:03.858 The confidence value is fixed at 0.80.
+2021-10-26 02:11:15.460 Model loading
+2021-10-26 02:11:16.739 Model loaded
+2021-10-26 02:11:16.740 The confidence value is fixed at 0.80.
+2021-10-26 02:11:16.740 Image loaded.
+/home/jasminelabeille/Bureau/MaskWearingOrNot/app.py:108: DeprecationWarning: The binary mode of fromstring is deprecated, as it behaves surprisingly on unicode inputs. Use frombuffer instead
+  image = cv2.imdecode(np.fromstring(uploaded_image.read(), np.uint8), 1)
+2021-10-26 02:11:17.062 The model detected 1 face.
+2021-10-26 02:11:18.291 The Mask_Detector prediction coming.
+2021-10-26 02:11:18.292 One mask detected.
+2021-10-26 02:11:18.318 The model detected the Masque: 85.01% label for this face.
+2021-10-26 02:11:24.587 The MongoDB database {mydb} is loaded.
+2021-10-26 02:11:24.588 The application is connected to the training collection: {training} hosted by MongoDB.
+2021-10-26 02:11:25.544 The MongoDB database {mydb} is loaded.
+2021-10-26 02:11:25.544 The application is connected to the training collection: {training} hosted by MongoDB.
+2021-10-26 02:11:25.559 The user bou clicked on 'Afficher la base de données d'entraînement' to show the usersTableDEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+DEBUG:root:You'll retrieve this message into the log file named app.log in the tmp folder
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+DEBUG:root:You'll retrieve this message into the log file named app.log in the tmp folder
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+DEBUG:root:You'll retrieve this message into the log file named app.log in the tmp folder
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+DEBUG:root:You'll retrieve this message into the log file named app.log in the tmp folder
+2021-10-26 02:39:41,040 DEBUG This message should go to the log file
+2021-10-26 02:39:41,040 INFO So should this
+2021-10-26 02:39:41,041 WARNING And this, too
+2021-10-26 02:39:41,144 DEBUG This message should go to the log file
+2021-10-26 02:39:41,144 INFO So should this
+2021-10-26 02:39:41,145 WARNING And this, too
+2021-10-26 02:39:46,262 DEBUG This message should go to the log file
+2021-10-26 02:39:46,262 INFO So should this
+2021-10-26 02:39:46,262 WARNING And this, too
+2021-10-26 02:39:53,655 DEBUG This message should go to the log file
+2021-10-26 02:39:53,656 INFO So should this
+2021-10-26 02:39:53,656 WARNING And this, too
+2021-10-26 02:39:56,704 DEBUG This message should go to the log file
+2021-10-26 02:39:56,705 INFO So should this
+2021-10-26 02:39:56,705 WARNING And this, too
+2021-10-26 02:39:58,995 DEBUG This message should go to the log file
+2021-10-26 02:39:58,996 INFO So should this
+2021-10-26 02:39:58,996 WARNING And this, too
+2021-10-26 02:39:59,190 DEBUG This message should go to the log file
+2021-10-26 02:39:59,191 INFO So should this
+2021-10-26 02:39:59,191 WARNING And this, too
+2021-10-26 02:39:59,194 INFO Model loading
+2021-10-26 02:40:00,241 INFO Model loaded
+2021-10-26 02:40:00,242 INFO The confidence value is fixed at 0.80.
+2021-10-26 02:40:16,416 DEBUG This message should go to the log file
+2021-10-26 02:40:16,416 INFO So should this
+2021-10-26 02:40:16,416 WARNING And this, too
+2021-10-26 02:40:16,419 INFO Model loading
+2021-10-26 02:40:17,316 INFO Model loaded
+2021-10-26 02:40:17,317 INFO The confidence value is fixed at 0.80.
+2021-10-26 02:40:17,317 INFO Image loaded.
+2021-10-26 02:40:17,318 DEBUG tag: Model (272) - type: string (2) Tag Location: 22 - Data Location: 62 - value: b'USB2.0 VGA UVC WebCam: USB2.0 V\x00'
+2021-10-26 02:40:17,318 DEBUG tag: Software (305) - type: string (2) Tag Location: 34 - Data Location: 94 - value: b'cheese 3.34.0\x00'
+2021-10-26 02:40:17,318 DEBUG tag: DateTime (306) - type: string (2) Tag Location: 46 - Data Location: 108 - value: b'2021:08:30 18:41:11\x00'
+2021-10-26 02:40:17,318 DEBUG tag: ExifIFD (34665) - type: long (4) - value: b'\x80\x00\x00\x00'
+2021-10-26 02:40:17,398 INFO The model detected 1 face.
+2021-10-26 02:40:18,041 INFO The Mask_Detector prediction coming.
+2021-10-26 02:40:18,057 INFO The model detected the Pas de Masque: 100.00% label for this face.
+2021-10-26 02:40:25,634 DEBUG This message should go to the log file
+2021-10-26 02:40:25,634 INFO So should this
+2021-10-26 02:40:25,634 WARNING And this, too
+2021-10-26 02:40:25,637 INFO Model loading
+2021-10-26 02:40:26,908 INFO Model loaded
+2021-10-26 02:40:26,909 INFO The confidence value is fixed at 0.80.
+2021-10-26 02:40:26,909 INFO Image loaded.
+2021-10-26 02:40:26,910 DEBUG tag: Model (272) - type: string (2) Tag Location: 22 - Data Location: 62 - value: b'USB2.0 VGA UVC WebCam: USB2.0 V\x00'
+2021-10-26 02:40:26,910 DEBUG tag: Software (305) - type: string (2) Tag Location: 34 - Data Location: 94 - value: b'cheese 3.34.0\x00'
+2021-10-26 02:40:26,910 DEBUG tag: DateTime (306) - type: string (2) Tag Location: 46 - Data Location: 108 - value: b'2021:08:30 18:55:30\x00'
+2021-10-26 02:40:26,910 DEBUG tag: ExifIFD (34665) - type: long (4) - value: b'\x80\x00\x00\x00'
+2021-10-26 02:40:27,022 INFO The model detected 1 face.
+2021-10-26 02:40:28,222 INFO The Mask_Detector prediction coming.
+2021-10-26 02:40:28,222 INFO One mask detected.
+2021-10-26 02:40:28,251 INFO The model detected the Masque: 85.01% label for this face.
+2021-10-26 02:40:33,046 DEBUG This message should go to the log file
+2021-10-26 02:40:33,046 INFO So should this
+2021-10-26 02:40:33,046 WARNING And this, too
+2021-10-26 02:40:33,074 INFO The MongoDB database {mydb} is loaded.
+2021-10-26 02:40:33,074 INFO The application is connected to the training collection: {training} hosted by MongoDB.
+2021-10-26 02:40:34,586 DEBUG This message should go to the log file
+2021-10-26 02:40:34,587 INFO So should this
+2021-10-26 02:40:34,587 WARNING And this, too
+2021-10-26 02:40:34,592 INFO The MongoDB database {mydb} is loaded.
+2021-10-26 02:40:34,592 INFO The application is connected to the training collection: {training} hosted by MongoDB.
+2021-10-26 02:40:34,606 INFO The user bou clicked on 'Afficher la base de données d'entraînement' to show the usersTable
+2021-10-26 02:40:42,064 DEBUG This message should go to the log file
+2021-10-26 02:40:42,064 INFO So should this
+2021-10-26 02:40:42,064 WARNING And this, too
+2021-10-26 02:40:42,127 INFO The Webcam Streamlit Component is opened in the application.
+2021-10-26 02:40:42,509 DEBUG This message should go to the log file
+2021-10-26 02:40:42,509 INFO So should this
+2021-10-26 02:40:42,510 WARNING And this, too
+2021-10-26 02:40:42,513 INFO The Webcam Streamlit Component is opened in the application.
+2021-10-26 02:40:58,338 DEBUG This message should go to the log file
+2021-10-26 02:40:58,338 INFO So should this
+2021-10-26 02:40:58,338 WARNING And this, too
+2021-10-26 02:40:58,656 DEBUG This message should go to the log file
+2021-10-26 02:40:58,656 INFO So should this
+2021-10-26 02:40:58,656 WARNING And this, too
+2021-10-26 02:40:58,662 INFO The Webcam Streamlit Component is opened in the application.
+2021-10-26 02:40:59,576 DEBUG This message should go to the log file
+2021-10-26 02:40:59,576 INFO So should this
+2021-10-26 02:40:59,576 WARNING And this, too
+2021-10-26 02:40:59,600 INFO The Webcam Streamlit Component is opened in the application.
+2021-10-26 02:41:07,515 DEBUG This message should go to the log file
+2021-10-26 02:41:07,515 INFO So should this
+2021-10-26 02:41:07,515 WARNING And this, too
+2021-10-26 02:41:07,784 DEBUG This message should go to the log file
+2021-10-26 02:41:07,786 INFO So should this
+2021-10-26 02:41:07,788 WARNING And this, too
+2021-10-26 02:41:07,803 INFO The Webcam Streamlit Component is opened in the application.
+2021-10-26 02:41:16,773 DEBUG This message should go to the log file
+2021-10-26 02:41:16,773 INFO So should this
+2021-10-26 02:41:16,773 WARNING And this, too
+2021-10-26 02:41:16,776 INFO Model loading
+2021-10-26 02:41:18,599 INFO Model loaded
+2021-10-26 02:41:18,600 INFO The confidence value is fixed at 0.80.
+2021-10-26 02:41:18,600 INFO Image loaded.
+2021-10-26 02:41:18,601 DEBUG tag: Model (272) - type: string (2) Tag Location: 22 - Data Location: 62 - value: b'USB2.0 VGA UVC WebCam: USB2.0 V\x00'
+2021-10-26 02:41:18,602 DEBUG tag: Software (305) - type: string (2) Tag Location: 34 - Data Location: 94 - value: b'cheese 3.34.0\x00'
+2021-10-26 02:41:18,602 DEBUG tag: DateTime (306) - type: string (2) Tag Location: 46 - Data Location: 108 - value: b'2021:08:30 18:55:30\x00'
+2021-10-26 02:41:18,602 DEBUG tag: ExifIFD (34665) - type: long (4) - value: b'\x80\x00\x00\x00'
+2021-10-26 02:41:18,737 INFO The model detected 1 face.
+2021-10-26 02:41:19,918 INFO The Mask_Detector prediction coming.
+2021-10-26 02:41:19,919 INFO One mask detected.
+2021-10-26 02:41:19,947 INFO The model detected the Masque: 85.01% label for this face.
+2021-10-26 02:42:32,929 DEBUG This message should go to the log file
+2021-10-26 02:42:32,929 INFO So should this
+2021-10-26 02:42:32,932 WARNING And this, too
+2021-10-26 02:42:33,021 DEBUG This message should go to the log file
+2021-10-26 02:42:33,021 INFO So should this
+2021-10-26 02:42:33,021 WARNING And this, too
+2021-10-26 02:42:45,739 DEBUG This message should go to the log file
+2021-10-26 02:42:45,740 INFO So should this
+2021-10-26 02:42:45,740 WARNING And this, too
+2021-10-26 02:42:48,374 DEBUG This message should go to the log file
+2021-10-26 02:42:48,374 INFO So should this
+2021-10-26 02:42:48,374 WARNING And this, too
+2021-10-26 02:42:52,964 DEBUG This message should go to the log file
+2021-10-26 02:42:52,964 INFO So should this
+2021-10-26 02:42:52,964 WARNING And this, too
+2021-10-26 02:42:54,456 DEBUG This message should go to the log file
+2021-10-26 02:42:54,456 INFO So should this
+2021-10-26 02:42:54,456 WARNING And this, too
+2021-10-26 02:42:54,458 INFO The Admin user is connected.
+2021-10-26 02:42:54,458 INFO Model loading
+2021-10-26 02:42:55,478 INFO Model loaded
+2021-10-26 02:42:55,478 INFO The confidence value is fixed at 0.80.
+2021-10-26 02:42:58,104 DEBUG This message should go to the log file
+2021-10-26 02:42:58,104 INFO So should this
+2021-10-26 02:42:58,104 WARNING And this, too
+2021-10-26 02:42:58,106 INFO The Admin user is connected.
+2021-10-26 02:42:58,112 INFO Model loading
+2021-10-26 02:42:59,023 INFO Model loaded
+2021-10-26 02:42:59,023 INFO The confidence value is fixed at 0.80.
+2021-10-26 03:53:55,038 DEBUG This message should go to the log file
+2021-10-26 03:53:55,041 WARNING And this, too
+2021-10-26 03:53:55,044 INFO So should this
+2021-10-26 03:53:55,047 WARNING And this, too
+2021-10-26 03:53:58,269 DEBUG This message should go to the log file
+2021-10-26 03:53:58,269 INFO So should this
+2021-10-26 03:53:58,269 WARNING And this, too
+2021-10-26 03:54:05,530 DEBUG This message should go to the log file
+2021-10-26 03:54:05,531 INFO So should this
+2021-10-26 03:54:05,531 WARNING And this, too
+2021-10-26 03:54:10,258 DEBUG This message should go to the log file
+2021-10-26 03:54:10,258 INFO So should this
+2021-10-26 03:54:10,258 WARNING And this, too
+2021-10-26 03:54:10,441 DEBUG This message should go to the log file
+2021-10-26 03:54:10,441 INFO So should this
+2021-10-26 03:54:10,441 WARNING And this, too
+2021-10-26 03:54:10,444 DEBUG The user entered wrong Username/Password couple.
+2021-10-26 03:54:13,548 DEBUG This message should go to the log file
+2021-10-26 03:54:13,548 INFO So should this
+2021-10-26 03:54:13,548 WARNING And this, too
+2021-10-26 03:54:13,551 INFO The Admin user is connected.
+2021-10-26 03:54:13,551 INFO Model loading
+2021-10-26 03:54:14,699 INFO Model loaded
+2021-10-26 03:54:14,700 INFO The confidence value is fixed at 0.80.
+2021-10-26 03:54:15,939 DEBUG This message should go to the log file
+2021-10-26 03:54:15,939 INFO So should this
+2021-10-26 03:54:15,939 WARNING And this, too
+2021-10-26 03:54:15,941 INFO The Admin user is connected.
+2021-10-26 03:55:16,099 DEBUG This message should go to the log file
+2021-10-26 03:55:16,099 INFO So should this
+2021-10-26 03:55:16,099 WARNING And this, too
+2021-10-26 03:55:16,101 INFO The Admin user is connected.
+2021-10-26 03:55:16,102 INFO Model loading
+2021-10-26 03:55:17,543 INFO Model loaded
+2021-10-26 03:55:17,544 INFO The confidence value is fixed at 0.80.
+2021-10-26 03:55:17,891 DEBUG This message should go to the log file
+2021-10-26 03:55:17,892 INFO So should this
+2021-10-26 03:55:17,892 WARNING And this, too
+2021-10-26 03:55:17,895 INFO The Admin user is connected.
+2021-10-26 03:55:17,905 INFO Model loading
+2021-10-26 03:55:19,732 INFO Model loaded
+2021-10-26 03:55:19,733 INFO The confidence value is fixed at 0.80.
+2021-10-26 03:58:46,434 DEBUG This message should go to the log file
+2021-10-26 03:58:46,434 DEBUG This message should go to the log file
+2021-10-26 03:58:46,435 DEBUG This message should go to the log file
+2021-10-26 03:58:46,437 DEBUG This message should go to the log file
+2021-10-26 03:58:46,437 INFO So should this
+2021-10-26 03:58:46,437 INFO So should this
+2021-10-26 03:58:46,438 WARNING And this, too
+2021-10-26 03:58:46,439 WARNING And this, too
+2021-10-26 03:58:46,580 DEBUG This message should go to the log file
+2021-10-26 03:58:46,580 INFO So should this
+2021-10-26 03:58:46,581 WARNING And this, too
+2021-10-26 03:58:50,891 DEBUG This message should go to the log file
+2021-10-26 03:58:50,891 INFO So should this
+2021-10-26 03:58:50,891 WARNING And this, too
+2021-10-26 03:58:54,287 DEBUG This message should go to the log file
+2021-10-26 03:58:54,287 INFO So should this
+2021-10-26 03:58:54,287 WARNING And this, too
+2021-10-26 03:58:57,173 DEBUG This message should go to the log file
+2021-10-26 03:58:57,174 INFO So should this
+2021-10-26 03:58:57,174 WARNING And this, too
+2021-10-26 03:59:20,512 DEBUG This message should go to the log file
+2021-10-26 03:59:20,512 INFO So should this
+2021-10-26 03:59:20,512 WARNING And this, too
+2021-10-26 03:59:26,830 DEBUG This message should go to the log file
+2021-10-26 03:59:26,830 INFO So should this
+2021-10-26 03:59:26,830 WARNING And this, too
+2021-10-26 03:59:33,452 DEBUG This message should go to the log file
+2021-10-26 03:59:33,453 INFO So should this
+2021-10-26 03:59:33,453 WARNING And this, too
+2021-10-26 03:59:33,456 INFO The Admin user is connected.
+2021-10-26 03:59:33,457 INFO Model loading
+2021-10-26 03:59:35,155 INFO Model loaded
+2021-10-26 03:59:35,156 INFO The confidence value is fixed at 0.80.
+2021-10-26 03:59:37,419 DEBUG This message should go to the log file
+2021-10-26 03:59:37,419 INFO So should this
+2021-10-26 03:59:37,419 WARNING And this, too
+2021-10-26 03:59:37,421 INFO The Admin user is connected.
+2021-10-26 03:59:37,426 INFO Model loading
+2021-10-26 03:59:38,938 INFO Model loaded
+2021-10-26 03:59:38,939 INFO The confidence value is fixed at 0.80.
+2021-10-26 04:00:38,596 DEBUG This message should go to the log file
+2021-10-26 04:00:38,597 INFO So should this
+2021-10-26 04:00:38,597 WARNING And this, too
+2021-10-26 04:00:38,599 INFO The Admin user is connected.
+2021-10-26 04:00:38,663 INFO The MongoDB database {mydb} is loaded.
+2021-10-26 04:00:38,664 INFO The application is connected to the training collection: {training} hosted by MongoDB.
+2021-10-26 04:00:40,327 DEBUG This message should go to the log file
+2021-10-26 04:00:40,327 INFO So should this
+2021-10-26 04:00:40,327 WARNING And this, too
+2021-10-26 04:00:40,330 INFO The Admin user is connected.
+2021-10-26 04:00:40,332 INFO The MongoDB database {mydb} is loaded.
+2021-10-26 04:00:40,332 INFO The application is connected to the training collection: {training} hosted by MongoDB.
+2021-10-26 04:00:40,378 INFO The user Admin clicked on 'Afficher la base de données d'entraînement' to show the usersTable
+2021-10-26 04:26:23,198 DEBUG This message should go to the log file
+2021-10-26 04:26:23,204 INFO So should this
+2021-10-26 04:26:23,205 WARNING And this, too
+2021-10-26 04:26:23,378 DEBUG This message should go to the log file
+2021-10-26 04:26:23,378 INFO So should this
+2021-10-26 04:26:23,378 WARNING And this, too
+2021-10-26 04:26:32,424 DEBUG This message should go to the log file
+2021-10-26 04:26:32,424 INFO So should this
+2021-10-26 04:26:32,424 WARNING And this, too
+2021-10-26 04:27:28,233 DEBUG This message should go to the log file
+2021-10-26 04:27:28,233 INFO So should this
+2021-10-26 04:27:28,233 WARNING And this, too
+2021-10-26 04:34:47,573 DEBUG This message should go to the log file
+2021-10-26 04:34:47,573 INFO So should this
+2021-10-26 04:34:47,574 WARNING And this, too
+2021-10-26 04:35:04,438 DEBUG This message should go to the log file
+2021-10-26 04:35:04,438 INFO So should this
+2021-10-26 04:35:04,438 WARNING And this, too
+2021-10-26 04:36:00,802 DEBUG This message should go to the log file
+2021-10-26 04:36:00,802 INFO So should this
+2021-10-26 04:36:00,802 WARNING And this, too
+2021-10-26 04:36:29,101 DEBUG This message should go to the log file
+2021-10-26 04:36:29,101 INFO So should this
+2021-10-26 04:36:29,101 WARNING And this, too
+2021-10-26 04:36:34,939 DEBUG This message should go to the log file
+2021-10-26 04:36:34,939 INFO So should this
+2021-10-26 04:36:34,939 WARNING And this, too
+2021-10-26 04:36:37,232 DEBUG This message should go to the log file
+2021-10-26 04:36:37,232 INFO So should this
+2021-10-26 04:36:37,232 WARNING And this, too
+2021-10-26 04:36:38,095 DEBUG This message should go to the log file
+2021-10-26 04:36:38,096 INFO So should this
+2021-10-26 04:36:38,096 WARNING And this, too
+2021-10-26 04:36:38,098 INFO Model loading
+2021-10-26 04:36:40,069 INFO Model loaded
+2021-10-26 04:36:40,070 INFO The confidence value is fixed at 0.80.
+2021-10-26 04:36:55,786 DEBUG This message should go to the log file
+2021-10-26 04:36:55,786 INFO So should this
+2021-10-26 04:36:55,786 WARNING And this, too
+2021-10-26 04:36:55,792 INFO The MongoDB database {mydb} is loaded.
+2021-10-26 04:36:55,792 INFO The application is connected to the training collection: {training} hosted by MongoDB.
+2021-10-26 04:36:58,529 DEBUG This message should go to the log file
+2021-10-26 04:36:58,529 INFO So should this
+2021-10-26 04:36:58,529 WARNING And this, too
+2021-10-26 04:36:58,534 INFO The MongoDB database {mydb} is loaded.
+2021-10-26 04:36:58,534 INFO The application is connected to the training collection: {training} hosted by MongoDB.
+2021-10-26 04:36:58,549 INFO The user bou clicked on 'Afficher la base de données d'entraînement' to show the usersTable
+2021-10-26 14:38:20,362 DEBUG This message should go to the log file
+2021-10-26 14:38:20,363 INFO So should this
+2021-10-26 14:38:20,363 WARNING And this, too
+2021-10-26 14:38:26,809 DEBUG This message should go to the log file
+2021-10-26 14:38:26,810 INFO So should this
+2021-10-26 14:38:26,810 WARNING And this, too
+2021-10-26 14:38:29,651 DEBUG This message should go to the log file
+2021-10-26 14:38:29,651 INFO So should this
+2021-10-26 14:38:29,651 WARNING And this, too
+2021-10-26 14:38:29,821 DEBUG This message should go to the log file
+2021-10-26 14:38:29,821 INFO So should this
+2021-10-26 14:38:29,821 WARNING And this, too
+2021-10-26 14:38:29,823 DEBUG The user entered wrong Username/Password couple.
+2021-10-26 14:38:34,244 DEBUG This message should go to the log file
+2021-10-26 14:38:34,244 INFO So should this
+2021-10-26 14:38:34,244 WARNING And this, too
+2021-10-26 14:38:34,246 DEBUG The user entered wrong Username/Password couple.
+2021-10-26 14:38:37,722 DEBUG This message should go to the log file
+2021-10-26 14:38:37,722 INFO So should this
+2021-10-26 14:38:37,722 WARNING And this, too
+2021-10-26 14:38:37,723 DEBUG The user entered wrong Username/Password couple.
+2021-10-26 14:38:40,507 DEBUG This message should go to the log file
+2021-10-26 14:38:40,507 INFO So should this
+2021-10-26 14:38:40,507 WARNING And this, too
+2021-10-26 14:38:40,508 DEBUG The user entered wrong Username/Password couple.
+2021-10-26 14:38:44,840 DEBUG This message should go to the log file
+2021-10-26 14:38:44,840 INFO So should this
+2021-10-26 14:38:44,840 WARNING And this, too
+2021-10-26 14:38:44,842 DEBUG The user entered wrong Username/Password couple.
+2021-10-26 14:38:47,167 DEBUG This message should go to the log file
+2021-10-26 14:38:47,168 INFO So should this
+2021-10-26 14:38:47,168 WARNING And this, too
+2021-10-26 14:38:47,170 INFO Model loading
+2021-10-26 14:38:48,327 INFO Model loaded
+2021-10-26 14:38:48,328 INFO The confidence value is fixed at 0.80.
+2021-10-26 14:38:53,634 DEBUG This message should go to the log file
+2021-10-26 14:38:53,634 INFO So should this
+2021-10-26 14:38:53,635 WARNING And this, too
+2021-10-26 14:38:53,636 INFO Model loading
+2021-10-26 14:38:54,446 INFO Model loaded
+2021-10-26 14:38:54,446 INFO The confidence value is fixed at 0.80.
+2021-10-26 14:39:06,645 DEBUG This message should go to the log file
+2021-10-26 14:39:06,645 INFO So should this
+2021-10-26 14:39:06,645 WARNING And this, too
+2021-10-26 14:39:06,647 INFO Model loading
+2021-10-26 14:39:07,457 INFO Model loaded
+2021-10-26 14:39:07,458 INFO The confidence value is fixed at 0.80.
+2021-10-26 14:39:07,458 INFO Image loaded.
+2021-10-26 14:39:07,714 INFO The model detected 1 face.
+2021-10-26 14:39:08,458 INFO The Mask_Detector prediction coming.
+2021-10-26 14:39:08,787 INFO The model detected the Pas de Masque: 98.80% label for this face.
+2021-10-26 15:09:09,545 DEBUG This message should go to the log file
+2021-10-26 15:09:09,545 INFO So should this
+2021-10-26 15:09:09,545 WARNING And this, too
+2021-10-26 15:09:09,877 INFO The Webcam Streamlit Component is opened in the application.
+2021-10-26 15:09:10,229 DEBUG This message should go to the log file
+2021-10-26 15:09:10,229 INFO So should this
+2021-10-26 15:09:10,229 WARNING And this, too
+2021-10-26 15:09:10,232 INFO The Webcam Streamlit Component is opened in the application.
+2021-10-26 15:09:14,772 DEBUG This message should go to the log file
+2021-10-26 15:09:14,773 INFO So should this
+2021-10-26 15:09:14,773 WARNING And this, too
+2021-10-26 15:09:15,018 DEBUG This message should go to the log file
+2021-10-26 15:09:15,018 INFO So should this
+2021-10-26 15:09:15,019 WARNING And this, too
+2021-10-26 15:09:15,021 INFO The Webcam Streamlit Component is opened in the application.
+2021-10-26 15:09:15,452 DEBUG This message should go to the log file
+2021-10-26 15:09:15,452 INFO So should this
+2021-10-26 15:09:15,452 WARNING And this, too
+2021-10-26 15:09:15,456 INFO The Webcam Streamlit Component is opened in the application.
+2021-10-26 15:11:41,788 DEBUG This message should go to the log file
+2021-10-26 15:11:41,788 INFO So should this
+2021-10-26 15:11:41,788 WARNING And this, too
+2021-10-26 15:11:42,188 DEBUG This message should go to the log file
+2021-10-26 15:11:42,188 INFO So should this
+2021-10-26 15:11:42,189 WARNING And this, too
+2021-10-26 15:11:42,194 INFO The Webcam Streamlit Component is opened in the application.
+2021-10-26 16:04:28,144 DEBUG This message should go to the log file
+2021-10-26 16:04:28,145 INFO So should this
+2021-10-26 16:04:28,145 WARNING And this, too
+2021-10-26 16:04:28,350 DEBUG This message should go to the log file
+2021-10-26 16:04:28,351 INFO So should this
+2021-10-26 16:04:28,351 WARNING And this, too
+2021-10-26 16:04:38,704 DEBUG This message should go to the log file
+2021-10-26 16:04:38,704 INFO So should this
+2021-10-26 16:04:38,704 WARNING And this, too
+2021-10-26 16:05:45,936 DEBUG This message should go to the log file
+2021-10-26 16:05:45,937 INFO So should this
+2021-10-26 16:05:45,937 WARNING And this, too
+2021-10-26 16:23:12,863 DEBUG This message should go to the log file
+2021-10-26 16:23:12,863 INFO So should this
+2021-10-26 16:23:12,863 WARNING And this, too
+2021-10-26 16:23:13,099 DEBUG This message should go to the log file
+2021-10-26 16:23:13,099 INFO So should this
+2021-10-26 16:23:13,099 WARNING And this, too
+2021-10-26 16:33:37,621 DEBUG This message should go to the log file
+2021-10-26 16:33:37,623 INFO So should this
+2021-10-26 16:33:37,623 WARNING And this, too
+2021-10-26 16:34:58,153 DEBUG This message should go to the log file
+2021-10-26 16:34:58,153 INFO So should this
+2021-10-26 16:34:58,153 WARNING And this, too
+2021-10-26 16:40:39,556 DEBUG This message should go to the log file
+2021-10-26 16:40:39,558 INFO So should this
+2021-10-26 16:40:39,558 WARNING And this, too
+2021-10-26 16:45:53,189 DEBUG This message should go to the log file
+2021-10-26 16:45:53,190 INFO So should this
+2021-10-26 16:45:53,190 WARNING And this, too
+2021-10-26 16:49:57,075 DEBUG This message should go to the log file
+2021-10-26 16:49:57,077 INFO So should this
+2021-10-26 16:49:57,077 WARNING And this, too
+2021-10-26 16:50:07,989 DEBUG This message should go to the log file
+2021-10-26 16:50:07,991 INFO So should this
+2021-10-26 16:50:07,991 WARNING And this, too
+2021-10-26 16:50:14,136 DEBUG This message should go to the log file
+2021-10-26 16:50:14,136 INFO So should this
+2021-10-26 16:50:14,137 WARNING And this, too
+2021-10-26 16:50:14,484 DEBUG This message should go to the log file
+2021-10-26 16:50:14,484 INFO So should this
+2021-10-26 16:50:14,484 WARNING And this, too
+2021-10-26 16:50:14,494 INFO The Admin user is connected.
+2021-10-26 16:50:14,496 INFO Model loading
+2021-10-26 16:50:17,502 INFO Model loaded
+2021-10-26 16:50:17,504 INFO The confidence value is fixed at 0.80.
+2021-10-26 16:51:47,548 DEBUG This message should go to the log file
+2021-10-26 16:51:47,549 INFO So should this
+2021-10-26 16:51:47,549 WARNING And this, too
+2021-10-26 16:51:47,558 INFO The Admin user is connected.
+2021-10-26 16:51:47,559 INFO Model loading
+2021-10-26 16:51:49,420 INFO Model loaded
+2021-10-26 16:51:49,421 INFO The confidence value is fixed at 0.80.
+2021-10-26 16:51:56,893 DEBUG This message should go to the log file
+2021-10-26 16:51:56,894 INFO So should this
+2021-10-26 16:51:56,894 WARNING And this, too
+2021-10-26 16:51:56,898 INFO The Admin user is connected.
+2021-10-26 16:51:56,899 INFO Model loading
+2021-10-26 16:51:58,393 INFO Model loaded
+2021-10-26 16:51:58,393 INFO The confidence value is fixed at 0.80.
+2021-10-26 17:16:18,800 DEBUG This message should go to the log file
+2021-10-26 17:16:18,800 INFO So should this
+2021-10-26 17:16:18,801 WARNING And this, too
+2021-10-26 17:20:14,767 DEBUG This message should go to the log file
+2021-10-26 17:20:14,767 INFO So should this
+2021-10-26 17:20:14,767 WARNING And this, too
+2021-10-26 17:24:21,557 DEBUG This message should go to the log file
+2021-10-26 17:24:21,557 INFO So should this
+2021-10-26 17:24:21,557 WARNING And this, too
+2021-10-26 17:24:40,703 DEBUG This message should go to the log file
+2021-10-26 17:24:40,704 INFO So should this
+2021-10-26 17:24:40,704 WARNING And this, too
+2021-10-26 17:28:10,688 DEBUG This message should go to the log file
+2021-10-26 17:28:10,688 INFO So should this
+2021-10-26 17:28:10,688 WARNING And this, too
+2021-10-26 17:28:32,000 DEBUG This message should go to the log file
+2021-10-26 17:28:32,000 INFO So should this
+2021-10-26 17:28:32,000 WARNING And this, too
+2021-10-26 17:28:32,003 DEBUG The user entered wrong Username/Password couple.
+2021-10-26 17:28:35,097 DEBUG This message should go to the log file
+2021-10-26 17:28:35,097 INFO So should this
+2021-10-26 17:28:35,097 WARNING And this, too
+2021-10-26 17:28:36,113 DEBUG This message should go to the log file
+2021-10-26 17:28:36,114 INFO So should this
+2021-10-26 17:28:36,114 WARNING And this, too
+2021-10-26 17:28:36,115 DEBUG The user entered wrong Username/Password couple.
+2021-10-26 17:28:37,816 DEBUG This message should go to the log file
+2021-10-26 17:28:37,816 INFO So should this
+2021-10-26 17:28:37,817 WARNING And this, too
+2021-10-26 17:29:05,851 DEBUG This message should go to the log file
+2021-10-26 17:29:05,851 INFO So should this
+2021-10-26 17:29:05,851 WARNING And this, too
+2021-10-26 17:34:09,364 DEBUG This message should go to the log file
+2021-10-26 17:34:09,364 INFO So should this
+2021-10-26 17:34:09,364 WARNING And this, too
+2021-10-26 17:38:22,434 DEBUG This message should go to the log file
+2021-10-26 17:38:22,435 INFO So should this
+2021-10-26 17:38:22,435 WARNING And this, too
+2021-10-26 17:43:55,113 DEBUG This message should go to the log file
+2021-10-26 17:43:55,113 INFO So should this
+2021-10-26 17:43:55,114 WARNING And this, too
+2021-10-26 17:45:59,821 DEBUG This message should go to the log file
+2021-10-26 17:45:59,821 INFO So should this
+2021-10-26 17:45:59,822 WARNING And this, too
+2021-10-26 18:06:59,122 DEBUG This message should go to the log file
+2021-10-26 18:06:59,123 INFO So should this
+2021-10-26 18:06:59,124 WARNING And this, too
+2021-10-26 18:11:17,720 DEBUG This message should go to the log file
+2021-10-26 18:11:17,720 INFO So should this
+2021-10-26 18:11:17,720 WARNING And this, too
+2021-10-26 18:14:51,852 DEBUG This message should go to the log file
+2021-10-26 18:14:51,852 INFO So should this
+2021-10-26 18:14:51,852 WARNING And this, too
+2021-10-26 18:15:15,158 DEBUG This message should go to the log file
+2021-10-26 18:15:15,160 INFO So should this
+2021-10-26 18:15:15,160 WARNING And this, too
+2021-10-26 18:16:19,452 DEBUG This message should go to the log file
+2021-10-26 18:16:19,456 INFO So should this
+2021-10-26 18:16:19,457 WARNING And this, too
+2021-10-26 19:21:43,196 DEBUG This message should go to the log file
+2021-10-26 19:21:43,196 INFO So should this
+2021-10-26 19:21:43,196 WARNING And this, too
+2021-10-26 19:21:49,410 DEBUG This message should go to the log file
+2021-10-26 19:21:49,410 INFO So should this
+2021-10-26 19:21:49,410 WARNING And this, too
+2021-10-26 19:21:49,705 DEBUG This message should go to the log file
+2021-10-26 19:21:49,705 INFO So should this
+2021-10-26 19:21:49,706 WARNING And this, too
+2021-10-26 19:21:49,708 DEBUG The user entered wrong Username/Password couple.
+2021-10-26 19:21:58,198 DEBUG This message should go to the log file
+2021-10-26 19:21:58,198 INFO So should this
+2021-10-26 19:21:58,198 WARNING And this, too
+2021-10-26 19:21:58,200 DEBUG The user entered wrong Username/Password couple.
+2021-10-26 19:22:03,440 DEBUG This message should go to the log file
+2021-10-26 19:22:03,440 INFO So should this
+2021-10-26 19:22:03,441 WARNING And this, too
+2021-10-26 19:22:03,443 DEBUG The user entered wrong Username/Password couple.
+2021-10-26 19:22:09,585 DEBUG This message should go to the log file
+2021-10-26 19:22:09,585 INFO So should this
+2021-10-26 19:22:09,585 WARNING And this, too
+2021-10-26 19:22:09,586 DEBUG The user entered wrong Username/Password couple.
+2021-10-26 19:22:11,579 DEBUG This message should go to the log file
+2021-10-26 19:22:11,579 INFO So should this
+2021-10-26 19:22:11,579 WARNING And this, too
+2021-10-26 19:22:11,582 INFO Model loading
+2021-10-26 19:22:12,767 INFO Model loaded
+2021-10-26 19:22:12,768 INFO The confidence value is fixed at 0.80.
+2021-10-26 19:22:20,362 DEBUG This message should go to the log file
+2021-10-26 19:22:20,363 INFO So should this
+2021-10-26 19:22:20,363 WARNING And this, too
+2021-10-26 19:22:20,364 DEBUG The user entered wrong Username/Password couple.
+2021-10-26 19:22:25,164 DEBUG This message should go to the log file
+2021-10-26 19:22:25,165 INFO So should this
+2021-10-26 19:22:25,165 WARNING And this, too
+2021-10-26 19:22:25,166 INFO The Admin user is connected.
+2021-10-26 19:22:25,167 INFO Model loading
+2021-10-26 19:22:25,965 INFO Model loaded
+2021-10-26 19:22:25,965 INFO The confidence value is fixed at 0.80.
+2021-10-26 19:22:27,063 DEBUG This message should go to the log file
+2021-10-26 19:22:27,063 INFO So should this
+2021-10-26 19:22:27,063 WARNING And this, too
+2021-10-26 19:22:27,065 INFO The Admin user is connected.
+2021-10-26 19:23:09,791 DEBUG This message should go to the log file
+2021-10-26 19:23:09,791 INFO So should this
+2021-10-26 19:23:09,791 WARNING And this, too
+2021-10-26 19:23:09,793 INFO The Admin user is connected.
+2021-10-26 19:23:09,794 INFO Model loading
+2021-10-26 19:23:10,669 INFO Model loaded
+2021-10-26 19:23:10,669 INFO The confidence value is fixed at 0.80.
+2021-10-26 19:23:11,334 DEBUG This message should go to the log file
+2021-10-26 19:23:11,334 INFO So should this
+2021-10-26 19:23:11,334 WARNING And this, too
+2021-10-26 19:23:11,336 INFO The Admin user is connected.
+2021-10-26 19:23:13,341 INFO Model loading
+2021-10-26 19:23:14,324 INFO Model loaded
+2021-10-26 19:23:14,324 INFO The confidence value is fixed at 0.80.
+2021-10-26 19:25:46,218 DEBUG This message should go to the log file
+2021-10-26 19:25:46,218 INFO So should this
+2021-10-26 19:25:46,218 WARNING And this, too
+2021-10-26 19:25:46,222 INFO The Admin user is connected.
+2021-10-26 19:25:46,224 INFO Model loading
+2021-10-26 19:25:47,846 INFO Model loaded
+2021-10-26 19:25:47,847 INFO The confidence value is fixed at 0.80.
+2021-10-26 19:25:48,158 DEBUG This message should go to the log file
+2021-10-26 19:25:48,158 INFO So should this
+2021-10-26 19:25:48,158 WARNING And this, too
+2021-10-26 19:25:48,161 INFO The Admin user is connected.
+2021-10-26 19:25:50,166 INFO Model loading
+2021-10-26 19:25:51,337 INFO Model loaded
+2021-10-26 19:25:51,337 INFO The confidence value is fixed at 0.80.
+2021-10-26 19:26:30,707 DEBUG This message should go to the log file
+2021-10-26 19:26:30,707 INFO So should this
+2021-10-26 19:26:30,707 WARNING And this, too
+2021-10-26 19:26:30,710 INFO The Admin user is connected.
+2021-10-26 19:26:30,712 INFO Model loading
+2021-10-26 19:26:31,818 INFO Model loaded
+2021-10-26 19:26:31,818 INFO The confidence value is fixed at 0.80.
+2021-10-26 19:26:32,036 DEBUG This message should go to the log file
+2021-10-26 19:26:32,036 INFO So should this
+2021-10-26 19:26:32,037 WARNING And this, too
+2021-10-26 19:26:32,038 INFO The Admin user is connected.
+2021-10-26 19:26:32,039 INFO Model loading
+2021-10-26 19:26:33,132 INFO Model loaded
+2021-10-26 19:26:33,133 INFO The confidence value is fixed at 0.80.
+2021-10-26 19:26:43,495 DEBUG This message should go to the log file
+2021-10-26 19:26:43,495 INFO So should this
+2021-10-26 19:26:43,495 WARNING And this, too
+2021-10-26 19:26:43,496 INFO The Admin user is connected.
+2021-10-26 19:26:43,497 INFO Model loading
+2021-10-26 19:26:44,332 INFO Model loaded
+2021-10-26 19:26:44,333 INFO The confidence value is fixed at 0.80.
+2021-10-26 19:26:47,664 DEBUG This message should go to the log file
+2021-10-26 19:26:47,664 INFO So should this
+2021-10-26 19:26:47,664 WARNING And this, too
+2021-10-26 19:26:47,666 INFO The Admin user is connected.
+2021-10-26 19:26:47,667 INFO Model loading
+2021-10-26 19:26:48,577 INFO Model loaded
+2021-10-26 19:26:48,577 INFO The confidence value is fixed at 0.80.
+2021-10-26 19:27:26,575 DEBUG This message should go to the log file
+2021-10-26 19:27:26,576 INFO So should this
+2021-10-26 19:27:26,576 WARNING And this, too
+2021-10-26 19:27:26,579 INFO The Admin user is connected.
+2021-10-26 19:27:26,581 INFO Model loading
+2021-10-26 19:27:27,821 INFO Model loaded
+2021-10-26 19:27:27,822 INFO The confidence value is fixed at 0.80.
+2021-10-26 19:27:28,306 DEBUG This message should go to the log file
+2021-10-26 19:27:28,307 INFO So should this
+2021-10-26 19:27:28,307 WARNING And this, too
+2021-10-26 19:27:28,309 INFO The Admin user is connected.
+2021-10-26 19:27:28,311 INFO Model loading
+2021-10-26 19:27:29,584 INFO Model loaded
+2021-10-26 19:27:29,584 INFO The confidence value is fixed at 0.80.
+2021-10-26 19:28:19,439 DEBUG This message should go to the log file
+2021-10-26 19:28:19,439 INFO So should this
+2021-10-26 19:28:19,439 WARNING And this, too
+2021-10-26 19:28:19,440 INFO The Admin user is connected.
+2021-10-26 19:28:19,441 INFO Model loading
+2021-10-26 19:28:20,413 INFO Model loaded
+2021-10-26 19:28:20,413 INFO The confidence value is fixed at 0.80.
+2021-10-26 19:28:21,493 DEBUG This message should go to the log file
+2021-10-26 19:28:21,493 INFO So should this
+2021-10-26 19:28:21,493 WARNING And this, too
+2021-10-26 19:28:21,495 INFO The Admin user is connected.
+2021-10-26 19:28:21,496 INFO Model loading
+2021-10-26 19:28:22,349 INFO Model loaded
+2021-10-26 19:28:22,350 INFO The confidence value is fixed at 0.80.
+2021-10-26 19:28:30,713 DEBUG This message should go to the log file
+2021-10-26 19:28:30,713 INFO So should this
+2021-10-26 19:28:30,713 WARNING And this, too
+2021-10-26 19:28:30,715 INFO The Admin user is connected.
+2021-10-26 19:28:30,715 INFO Model loading
+2021-10-26 19:28:31,517 INFO Model loaded
+2021-10-26 19:28:31,518 INFO The confidence value is fixed at 0.80.
+2021-10-26 19:28:33,325 DEBUG This message should go to the log file
+2021-10-26 19:28:33,325 INFO So should this
+2021-10-26 19:28:33,325 WARNING And this, too
+2021-10-26 19:28:33,328 INFO The Admin user is connected.
+2021-10-26 19:28:33,329 INFO Model loading
+2021-10-26 19:28:34,510 INFO Model loaded
+2021-10-26 19:28:34,511 INFO The confidence value is fixed at 0.80.
+2021-10-26 19:32:09,179 DEBUG This message should go to the log file
+2021-10-26 19:32:09,179 INFO So should this
+2021-10-26 19:32:09,179 WARNING And this, too
+2021-10-26 19:32:09,182 INFO The Admin user is connected.
+2021-10-26 19:32:09,184 INFO Model loading
+2021-10-26 19:32:10,556 INFO Model loaded
+2021-10-26 19:32:10,672 DEBUG This message should go to the log file
+2021-10-26 19:32:10,672 INFO So should this
+2021-10-26 19:32:10,672 WARNING And this, too
+2021-10-26 19:32:10,674 INFO The Admin user is connected.
+2021-10-26 19:32:24,097 DEBUG This message should go to the log file
+2021-10-26 19:32:24,097 INFO So should this
+2021-10-26 19:32:24,097 WARNING And this, too
+2021-10-26 19:32:24,099 INFO The Admin user is connected.
+2021-10-26 19:32:24,100 INFO Model loading
+2021-10-26 19:32:24,981 INFO Model loaded
+2021-10-26 19:32:24,982 INFO The confidence value is fixed at 0.80.
+2021-10-26 19:32:29,526 DEBUG This message should go to the log file
+2021-10-26 19:32:29,527 INFO So should this
+2021-10-26 19:32:29,527 WARNING And this, too
+2021-10-26 19:32:29,529 INFO The Admin user is connected.
+2021-10-26 19:33:32,193 DEBUG This message should go to the log file
+2021-10-26 19:33:32,193 INFO So should this
+2021-10-26 19:33:32,193 WARNING And this, too
+2021-10-26 19:33:32,197 INFO The Admin user is connected.
+2021-10-26 19:33:32,198 INFO Model loading
+2021-10-26 19:33:33,257 INFO Model loaded
+2021-10-26 19:33:33,257 INFO The confidence value is fixed at 0.80.
+2021-10-26 19:33:33,838 DEBUG This message should go to the log file
+2021-10-26 19:33:33,839 INFO So should this
+2021-10-26 19:33:33,839 WARNING And this, too
+2021-10-26 19:33:33,840 INFO The Admin user is connected.
+2021-10-26 19:33:36,847 INFO Model loading
+2021-10-26 19:33:37,908 INFO Model loaded
+2021-10-26 19:33:37,908 INFO The confidence value is fixed at 0.80.
+2021-10-26 19:33:46,931 DEBUG This message should go to the log file
+2021-10-26 19:33:46,931 INFO So should this
+2021-10-26 19:33:46,931 WARNING And this, too
+2021-10-26 19:33:47,072 DEBUG This message should go to the log file
+2021-10-26 19:33:47,073 INFO So should this
+2021-10-26 19:33:47,073 WARNING And this, too
+2021-10-26 19:33:47,076 INFO The Admin user is connected.
+2021-10-26 19:33:47,099 INFO Model loading
+2021-10-26 19:33:48,560 INFO Model loaded
+2021-10-26 19:33:48,841 DEBUG This message should go to the log file
+2021-10-26 19:33:48,841 INFO So should this
+2021-10-26 19:33:48,842 WARNING And this, too
+2021-10-26 19:33:48,849 INFO The Admin user is connected.
+2021-10-26 19:33:48,860 INFO Model loading
+2021-10-26 19:33:51,153 INFO Model loaded
+2021-10-26 19:33:51,360 DEBUG This message should go to the log file
+2021-10-26 19:33:51,360 INFO So should this
+2021-10-26 19:33:51,361 WARNING And this, too
+2021-10-26 19:33:51,366 INFO The Admin user is connected.
+2021-10-26 19:33:51,376 INFO Model loading
+2021-10-26 19:33:53,824 INFO Model loaded
+2021-10-26 19:33:54,027 DEBUG This message should go to the log file
+2021-10-26 19:33:54,027 INFO So should this
+2021-10-26 19:33:54,027 WARNING And this, too
+2021-10-26 19:33:54,031 INFO The Admin user is connected.
+2021-10-26 19:33:54,038 INFO Model loading
+2021-10-26 19:33:56,314 INFO Model loaded
+2021-10-26 19:33:56,315 INFO The confidence value is fixed at 0.80.
+2021-10-26 19:34:41,120 DEBUG This message should go to the log file
+2021-10-26 19:34:41,120 INFO So should this
+2021-10-26 19:34:41,120 WARNING And this, too
+2021-10-26 19:34:41,122 INFO The Admin user is connected.
+2021-10-26 19:34:41,123 INFO Model loading
+2021-10-26 19:34:42,043 INFO Model loaded
+2021-10-26 19:34:42,044 INFO The confidence value is fixed at 0.80.
+2021-10-26 19:34:45,610 DEBUG This message should go to the log file
+2021-10-26 19:34:45,610 INFO So should this
+2021-10-26 19:34:45,610 WARNING And this, too
+2021-10-26 19:34:45,612 INFO The Admin user is connected.
+2021-10-26 19:34:45,616 INFO Model loading
+2021-10-26 19:34:46,505 INFO Model loaded
+2021-10-26 19:34:46,505 INFO The confidence value is fixed at 0.80.
+2021-10-26 19:34:46,798 DEBUG This message should go to the log file
+2021-10-26 19:34:46,798 INFO So should this
+2021-10-26 19:34:46,798 WARNING And this, too
+2021-10-26 19:34:46,801 INFO The Admin user is connected.
+2021-10-26 19:34:46,805 INFO Model loading
+2021-10-26 19:34:47,799 INFO Model loaded
+2021-10-26 19:34:47,799 INFO The confidence value is fixed at 0.80.
+2021-10-26 19:34:54,376 DEBUG This message should go to the log file
+2021-10-26 19:34:54,376 INFO So should this
+2021-10-26 19:34:54,376 WARNING And this, too
+2021-10-26 19:34:54,378 INFO The Admin user is connected.
+2021-10-26 19:34:54,511 INFO The Webcam Streamlit Component is opened in the application.
+2021-10-26 19:34:55,141 DEBUG This message should go to the log file
+2021-10-26 19:34:55,141 INFO So should this
+2021-10-26 19:34:55,141 WARNING And this, too
+2021-10-26 19:34:55,145 INFO The Admin user is connected.
+2021-10-26 19:34:55,148 INFO The Webcam Streamlit Component is opened in the application.
+2021-10-26 19:34:58,705 DEBUG This message should go to the log file
+2021-10-26 19:34:58,705 INFO So should this
+2021-10-26 19:34:58,705 WARNING And this, too
+2021-10-26 19:34:58,708 INFO The Admin user is connected.
+2021-10-26 19:34:59,124 DEBUG This message should go to the log file
+2021-10-26 19:34:59,125 INFO So should this
+2021-10-26 19:34:59,125 WARNING And this, too
+2021-10-26 19:34:59,129 INFO The Admin user is connected.
+2021-10-26 19:34:59,133 INFO The Webcam Streamlit Component is opened in the application.
+2021-10-26 19:35:00,105 DEBUG This message should go to the log file
+2021-10-26 19:35:00,112 INFO So should this
+2021-10-26 19:35:00,112 WARNING And this, too
+2021-10-26 19:35:00,210 INFO The Admin user is connected.
+2021-10-26 19:35:00,218 INFO The Webcam Streamlit Component is opened in the application.
+2021-10-27 00:21:00,618 DEBUG This message should go to the log file
+2021-10-27 00:21:00,618 INFO So should this
+2021-10-27 00:21:00,619 WARNING And this, too
+2021-10-27 00:21:06,354 DEBUG This message should go to the log file
+2021-10-27 00:21:06,354 INFO So should this
+2021-10-27 00:21:06,354 WARNING And this, too
+2021-10-27 00:21:10,366 DEBUG This message should go to the log file
+2021-10-27 00:21:10,366 INFO So should this
+2021-10-27 00:21:10,366 WARNING And this, too
+2021-10-27 00:21:10,565 DEBUG This message should go to the log file
+2021-10-27 00:21:10,566 INFO So should this
+2021-10-27 00:21:10,566 WARNING And this, too
+2021-10-27 00:21:10,568 INFO Model loading
+2021-10-27 00:21:11,616 INFO Model loaded
+2021-10-27 00:21:11,617 INFO The confidence value is fixed at 0.80.
+2021-10-27 00:21:15,746 DEBUG This message should go to the log file
+2021-10-27 00:21:15,746 INFO So should this
+2021-10-27 00:21:15,746 WARNING And this, too
+2021-10-27 00:21:15,754 INFO The MongoDB database {mydb} is loaded.
+2021-10-27 00:21:15,754 INFO The application is connected to the training collection: {training} hosted by MongoDB.
+2021-10-27 00:21:18,068 DEBUG This message should go to the log file
+2021-10-27 00:21:18,068 INFO So should this
+2021-10-27 00:21:18,068 WARNING And this, too
+2021-10-27 00:21:18,071 INFO The MongoDB database {mydb} is loaded.
+2021-10-27 00:21:18,071 INFO The application is connected to the training collection: {training} hosted by MongoDB.
+2021-10-27 00:21:18,084 INFO The user bou clicked on 'Afficher la base de données d'entraînement' to show the usersTable
+2021-10-28 03:09:47,080 DEBUG This message should go to the log file
+2021-10-28 03:09:47,080 INFO So should this
+2021-10-28 03:09:47,080 WARNING And this, too
+2021-10-28 03:10:01,037 DEBUG This message should go to the log file
+2021-10-28 03:10:01,037 INFO So should this
+2021-10-28 03:10:01,037 WARNING And this, too
+2021-10-28 03:10:06,224 DEBUG This message should go to the log file
+2021-10-28 03:10:06,224 INFO So should this
+2021-10-28 03:10:06,224 WARNING And this, too
+2021-10-28 03:10:09,482 DEBUG This message should go to the log file
+2021-10-28 03:10:09,482 INFO So should this
+2021-10-28 03:10:09,482 WARNING And this, too
+2021-10-28 03:10:09,484 INFO The Admin user is connected.
+2021-10-28 03:10:09,485 INFO Model loading
+2021-10-28 03:10:10,807 INFO Model loaded
+2021-10-28 03:10:10,807 INFO The confidence value is fixed at 0.80.
+2021-10-28 03:10:15,337 DEBUG This message should go to the log file
+2021-10-28 03:10:15,337 INFO So should this
+2021-10-28 03:10:15,337 WARNING And this, too
+2021-10-28 03:10:15,339 INFO The Admin user is connected.
+2021-10-28 03:10:15,339 INFO Model loading
+2021-10-28 03:10:16,156 INFO Model loaded
+2021-10-28 03:10:16,157 INFO The confidence value is fixed at 0.80.
+2021-10-28 03:10:16,157 INFO Image loaded.
+2021-10-28 03:10:16,380 INFO The model detected 1 face.
+2021-10-28 03:10:17,267 INFO The Mask_Detector prediction coming.
+2021-10-28 03:10:17,267 INFO One mask detected.
+2021-10-28 03:10:17,303 INFO The model detected the Masque: 74.02% label for this face.
+2021-10-28 03:11:20,483 DEBUG This message should go to the log file
+2021-10-28 03:11:20,483 INFO So should this
+2021-10-28 03:11:20,483 WARNING And this, too
+2021-10-28 03:11:20,484 INFO The Admin user is connected.
+2021-10-28 03:11:20,485 INFO Model loading
+2021-10-28 03:11:21,376 INFO Model loaded
+2021-10-28 03:11:21,376 INFO The confidence value is fixed at 0.80.
+2021-10-28 03:11:21,376 INFO Image loaded.
+2021-10-28 03:11:21,454 INFO The model detected 1 face.
+2021-10-28 03:11:22,213 INFO The Mask_Detector prediction coming.
+2021-10-28 03:11:22,213 INFO One mask detected.
+2021-10-28 03:11:22,236 INFO The model detected the Masque: 79.25% label for this face.
+2021-10-28 03:11:33,116 DEBUG This message should go to the log file
+2021-10-28 03:11:33,116 INFO So should this
+2021-10-28 03:11:33,117 WARNING And this, too
+2021-10-28 03:11:33,119 INFO The Admin user is connected.
+2021-10-28 03:11:33,121 INFO Model loading
+2021-10-28 03:11:34,032 INFO Model loaded
+2021-10-28 03:11:34,033 INFO The confidence value is fixed at 0.80.
+2021-10-28 03:11:34,033 INFO Image loaded.
+2021-10-28 03:11:34,033 DEBUG tag: ImageWidth (256) - type: long (4) - value: b'\xc0\x0c\x00\x00'
+2021-10-28 03:11:34,034 DEBUG tag: ImageLength (257) - type: long (4) - value: b'\x90\t\x00\x00'
+2021-10-28 03:11:34,034 DEBUG tag: Make (271) - type: string (2) Tag Location: 46 - Data Location: 158 - value: b'samsung\x00'
+2021-10-28 03:11:34,034 DEBUG tag: Model (272) - type: string (2) Tag Location: 58 - Data Location: 166 - value: b'SM-G950F\x00'
+2021-10-28 03:11:34,034 DEBUG tag: Orientation (274) - type: short (3) - value: b'\x06\x00'
+2021-10-28 03:11:34,034 DEBUG tag: XResolution (282) - type: rational (5) Tag Location: 82 - Data Location: 176 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+2021-10-28 03:11:34,034 DEBUG tag: YResolution (283) - type: rational (5) Tag Location: 94 - Data Location: 184 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+2021-10-28 03:11:34,034 DEBUG tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
+2021-10-28 03:11:34,034 DEBUG tag: Software (305) - type: string (2) Tag Location: 118 - Data Location: 192 - value: b'G950FXXUCDUD1\x00'
+2021-10-28 03:11:34,034 DEBUG tag: DateTime (306) - type: string (2) Tag Location: 130 - Data Location: 206 - value: b'2021:10:25 15:00:52\x00'
+2021-10-28 03:11:34,034 DEBUG tag: YCbCrPositioning (531) - type: short (3) - value: b'\x01\x00'
+2021-10-28 03:11:34,034 DEBUG tag: ExifIFD (34665) - type: long (4) - value: b'\xe2\x00\x00\x00'
+2021-10-28 03:11:34,470 INFO The model detected 1 face.
+2021-10-28 03:11:35,028 INFO The Mask_Detector prediction coming.
+2021-10-28 03:11:35,028 INFO One mask detected.
+2021-10-28 03:11:35,571 INFO The model detected the Masque: 64.15% label for this face.
+2021-10-28 03:11:45,564 DEBUG This message should go to the log file
+2021-10-28 03:11:45,564 INFO So should this
+2021-10-28 03:11:45,564 WARNING And this, too
+2021-10-28 03:11:45,565 INFO The Admin user is connected.
+2021-10-28 03:11:45,566 INFO Model loading
+2021-10-28 03:11:46,438 INFO Model loaded
+2021-10-28 03:11:46,438 INFO The confidence value is fixed at 0.80.
+2021-10-28 03:11:46,438 INFO Image loaded.
+2021-10-28 03:11:46,439 DEBUG tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+2021-10-28 03:11:46,439 DEBUG tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 98 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+2021-10-28 03:11:46,439 DEBUG tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 106 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+2021-10-28 03:11:46,439 DEBUG tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
+2021-10-28 03:11:46,440 DEBUG tag: Software (305) - type: string (2) Tag Location: 70 - Data Location: 114 - value: b'Shotwell 0.30.10\x00'
+2021-10-28 03:11:46,440 DEBUG tag: YCbCrPositioning (531) - type: short (3) - value: b'\x01\x00'
+2021-10-28 03:11:46,440 DEBUG tag: ExifIFD (34665) - type: long (4) - value: b'\x84\x00\x00\x00'
+2021-10-28 03:11:46,620 INFO The model detected 1 face.
+2021-10-28 03:11:47,226 INFO The Mask_Detector prediction coming.
+2021-10-28 03:11:47,226 INFO One mask detected.
+2021-10-28 03:11:47,478 INFO The model detected the Masque: 84.16% label for this face.
+2021-10-28 03:11:47,535 INFO The Mask_Detector prediction coming.
+2021-10-28 03:11:47,535 INFO One mask detected.
+2021-10-28 03:11:47,788 INFO The model detected the Masque: 99.83% label for this face.
+2021-10-28 03:12:01,537 DEBUG This message should go to the log file
+2021-10-28 03:12:01,537 INFO So should this
+2021-10-28 03:12:01,537 WARNING And this, too
+2021-10-28 03:12:01,539 INFO The Admin user is connected.
+2021-10-28 03:12:01,540 INFO Model loading
+2021-10-28 03:12:02,588 INFO Model loaded
+2021-10-28 03:12:02,589 INFO The confidence value is fixed at 0.80.
+2021-10-28 03:12:02,589 INFO Image loaded.
+2021-10-28 03:12:02,669 INFO The model detected 1 face.
+2021-10-28 03:12:03,246 INFO The Mask_Detector prediction coming.
+2021-10-28 03:12:03,246 INFO One mask detected.
+2021-10-28 03:12:03,270 INFO The model detected the Masque: 95.80% label for this face.
+2021-10-28 03:12:12,234 DEBUG This message should go to the log file
+2021-10-28 03:12:12,234 INFO So should this
+2021-10-28 03:12:12,234 WARNING And this, too
+2021-10-28 03:12:12,236 INFO The Admin user is connected.
+2021-10-28 03:12:12,236 INFO Model loading
+2021-10-28 03:12:13,093 INFO Model loaded
+2021-10-28 03:12:13,093 INFO The confidence value is fixed at 0.80.
+2021-10-28 03:12:13,093 INFO Image loaded.
+2021-10-28 03:12:13,094 DEBUG tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+2021-10-28 03:12:13,094 DEBUG tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 98 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+2021-10-28 03:12:13,094 DEBUG tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 106 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+2021-10-28 03:12:13,094 DEBUG tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
+2021-10-28 03:12:13,094 DEBUG tag: Software (305) - type: string (2) Tag Location: 70 - Data Location: 114 - value: b'Shotwell 0.30.10\x00'
+2021-10-28 03:12:13,094 DEBUG tag: YCbCrPositioning (531) - type: short (3) - value: b'\x01\x00'
+2021-10-28 03:12:13,094 DEBUG tag: ExifIFD (34665) - type: long (4) - value: b'\x84\x00\x00\x00'
+2021-10-28 03:12:13,244 INFO The model detected 1 face.
+2021-10-28 03:12:13,844 INFO The Mask_Detector prediction coming.
+2021-10-28 03:12:13,844 INFO One mask detected.
+2021-10-28 03:12:14,034 INFO The model detected the Masque: 99.91% label for this face.
+2021-10-28 03:12:14,104 INFO The Mask_Detector prediction coming.
+2021-10-28 03:12:14,105 INFO One mask detected.
+2021-10-28 03:12:14,295 INFO The model detected the Masque: 97.71% label for this face.
+2021-10-28 03:12:45,269 DEBUG This message should go to the log file
+2021-10-28 03:12:45,269 INFO So should this
+2021-10-28 03:12:45,270 WARNING And this, too
+2021-10-28 03:12:45,272 INFO The Admin user is connected.
+2021-10-28 03:12:45,273 INFO Model loading
+2021-10-28 03:12:46,130 INFO Model loaded
+2021-10-28 03:12:46,130 INFO The confidence value is fixed at 0.80.
+2021-10-28 03:12:46,130 INFO Image loaded.
+2021-10-28 03:12:46,131 DEBUG tag: Orientation (274) - type: short (3) - value: b'\x01\x00'
+2021-10-28 03:12:46,131 DEBUG tag: XResolution (282) - type: rational (5) Tag Location: 34 - Data Location: 98 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+2021-10-28 03:12:46,131 DEBUG tag: YResolution (283) - type: rational (5) Tag Location: 46 - Data Location: 106 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+2021-10-28 03:12:46,131 DEBUG tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
+2021-10-28 03:12:46,131 DEBUG tag: Software (305) - type: string (2) Tag Location: 70 - Data Location: 114 - value: b'Shotwell 0.30.10\x00'
+2021-10-28 03:12:46,131 DEBUG tag: YCbCrPositioning (531) - type: short (3) - value: b'\x01\x00'
+2021-10-28 03:12:46,131 DEBUG tag: ExifIFD (34665) - type: long (4) - value: b'\x84\x00\x00\x00'
+2021-10-28 03:12:46,328 INFO The model detected 1 face.
+2021-10-28 03:12:52,662 DEBUG This message should go to the log file
+2021-10-28 03:12:52,662 INFO So should this
+2021-10-28 03:12:52,662 WARNING And this, too
+2021-10-28 03:12:52,665 INFO The Admin user is connected.
+2021-10-28 03:12:52,666 INFO Model loading
+2021-10-28 03:12:53,729 INFO Model loaded
+2021-10-28 03:12:53,730 INFO The confidence value is fixed at 0.80.
+2021-10-28 03:12:53,730 INFO Image loaded.
+2021-10-28 03:12:53,730 DEBUG tag: ImageWidth (256) - type: long (4) - value: b'\x80\x0b\x00\x00'
+2021-10-28 03:12:53,730 DEBUG tag: ImageLength (257) - type: long (4) - value: b'\xa0\x08\x00\x00'
+2021-10-28 03:12:53,730 DEBUG tag: Make (271) - type: string (2) Tag Location: 46 - Data Location: 158 - value: b'samsung\x00'
+2021-10-28 03:12:53,730 DEBUG tag: Model (272) - type: string (2) Tag Location: 58 - Data Location: 166 - value: b'SM-G973U\x00'
+2021-10-28 03:12:53,730 DEBUG tag: Orientation (274) - type: short (3) - value: b'\x06\x00'
+2021-10-28 03:12:53,730 DEBUG tag: XResolution (282) - type: rational (5) Tag Location: 82 - Data Location: 210 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+2021-10-28 03:12:53,730 DEBUG tag: YResolution (283) - type: rational (5) Tag Location: 94 - Data Location: 218 - value: b'H\x00\x00\x00\x01\x00\x00\x00'
+2021-10-28 03:12:53,730 DEBUG tag: ResolutionUnit (296) - type: short (3) - value: b'\x02\x00'
+2021-10-28 03:12:53,730 DEBUG tag: Software (305) - type: string (2) Tag Location: 118 - Data Location: 176 - value: b'G973USQS4FUA1\x00'
+2021-10-28 03:12:53,731 DEBUG tag: DateTime (306) - type: string (2) Tag Location: 130 - Data Location: 190 - value: b'2021:10:25 17:51:58\x00'
+2021-10-28 03:12:53,731 DEBUG tag: YCbCrPositioning (531) - type: short (3) - value: b'\x01\x00'
+2021-10-28 03:12:53,731 DEBUG tag: ExifIFD (34665) - type: long (4) - value: b'\xe2\x00\x00\x00'
+2021-10-28 03:12:54,027 INFO The model detected 1 face.
+2021-10-28 03:12:54,538 INFO The Mask_Detector prediction coming.
+2021-10-28 03:12:54,539 INFO One mask detected.
+2021-10-28 03:12:54,986 INFO The model detected the Masque: 99.32% label for this face.
+2021-10-28 04:03:37,921 DEBUG This message should go to the log file
+2021-10-28 04:03:37,922 INFO So should this
+2021-10-28 04:03:37,922 WARNING And this, too
+2021-10-28 04:03:53,047 DEBUG This message should go to the log file
+2021-10-28 04:03:53,048 INFO So should this
+2021-10-28 04:03:53,048 WARNING And this, too
+2021-10-28 04:03:54,737 DEBUG This message should go to the log file
+2021-10-28 04:03:54,738 INFO So should this
+2021-10-28 04:03:54,738 WARNING And this, too
+2021-10-28 04:03:56,074 DEBUG This message should go to the log file
+2021-10-28 04:03:56,074 INFO So should this
+2021-10-28 04:03:56,074 WARNING And this, too
+2021-10-28 04:03:56,078 INFO Model loading
+2021-10-28 04:03:57,124 INFO Model loaded
+2021-10-28 04:03:57,125 INFO The confidence value is fixed at 0.80.
+2021-10-28 04:06:50,029 DEBUG This message should go to the log file
+2021-10-28 04:06:50,029 INFO So should this
+2021-10-28 04:06:50,029 WARNING And this, too
+2021-10-28 04:06:50,057 INFO The MongoDB database {mydb} is loaded.
+2021-10-28 04:06:50,057 INFO The application is connected to the training collection: {training} hosted by MongoDB.
+2021-10-28 04:06:52,199 DEBUG This message should go to the log file
+2021-10-28 04:06:52,199 INFO So should this
+2021-10-28 04:06:52,199 WARNING And this, too
+2021-10-28 04:06:52,202 INFO The MongoDB database {mydb} is loaded.
+2021-10-28 04:06:52,203 INFO The application is connected to the training collection: {training} hosted by MongoDB.
+2021-10-28 04:06:52,215 INFO The user bou clicked on 'Afficher la base de données d'entraînement' to show the usersTable
+2021-10-28 04:07:06,811 DEBUG This message should go to the log file
+2021-10-28 04:07:06,811 INFO So should this
+2021-10-28 04:07:06,811 WARNING And this, too
+2021-10-28 04:07:06,812 DEBUG The user entered wrong Username/Password couple.
+2021-10-28 04:07:13,533 DEBUG This message should go to the log file
+2021-10-28 04:07:13,533 INFO So should this
+2021-10-28 04:07:13,533 WARNING And this, too
+2021-10-28 04:07:13,534 INFO The Admin user is connected.
+2021-10-28 04:07:13,534 INFO Model loading
+2021-10-28 04:07:14,437 INFO Model loaded
+2021-10-28 04:07:14,438 INFO The confidence value is fixed at 0.80.
+2021-10-28 04:07:15,245 DEBUG This message should go to the log file
+2021-10-28 04:07:15,245 INFO So should this
+2021-10-28 04:07:15,245 WARNING And this, too
+2021-10-28 04:07:15,247 INFO The Admin user is connected.
+2021-10-28 04:07:15,250 INFO Model loading
+2021-10-28 04:07:16,102 INFO Model loaded
+2021-10-28 04:07:16,103 INFO The confidence value is fixed at 0.80.
+2021-10-28 04:07:20,757 DEBUG This message should go to the log file
+2021-10-28 04:07:20,758 INFO So should this
+2021-10-28 04:07:20,758 WARNING And this, too
+2021-10-28 04:07:20,759 INFO The Admin user is connected.
+2021-10-28 04:07:20,762 INFO Model loading
+2021-10-28 04:07:21,771 INFO Model loaded
+2021-10-28 04:07:21,772 INFO The confidence value is fixed at 0.80.
+2021-10-28 04:07:44,409 DEBUG This message should go to the log file
+2021-10-28 04:07:44,409 INFO So should this
+2021-10-28 04:07:44,409 WARNING And this, too
+2021-10-28 04:07:44,411 INFO The Admin user is connected.
+2021-10-28 04:07:44,415 INFO Model loading
+2021-10-28 04:07:45,275 INFO Model loaded
+2021-10-28 04:07:45,275 INFO The confidence value is fixed at 0.80.
+2021-10-28 04:18:56,867 DEBUG This message should go to the log file
+2021-10-28 04:18:56,885 INFO So should this
+2021-10-28 04:18:56,885 WARNING And this, too
+2021-10-28 04:18:56,886 INFO The Admin user is connected.
+2021-10-28 04:18:56,996 INFO The Webcam Streamlit Component is opened in the application.
+2021-10-28 04:18:57,370 DEBUG This message should go to the log file
+2021-10-28 04:18:57,371 INFO So should this
+2021-10-28 04:18:57,371 WARNING And this, too
+2021-10-28 04:18:57,373 INFO The Admin user is connected.
+2021-10-28 04:18:57,374 INFO The Webcam Streamlit Component is opened in the application.
+2021-10-28 04:19:02,861 DEBUG This message should go to the log file
+2021-10-28 04:19:02,861 INFO So should this
+2021-10-28 04:19:02,861 WARNING And this, too
+2021-10-28 04:19:02,864 INFO The Admin user is connected.
+2021-10-28 04:19:03,017 DEBUG This message should go to the log file
+2021-10-28 04:19:03,018 INFO So should this
+2021-10-28 04:19:03,018 WARNING And this, too
+2021-10-28 04:19:03,021 INFO The Admin user is connected.
+2021-10-28 04:19:03,024 INFO The Webcam Streamlit Component is opened in the application.
+2021-10-28 04:19:03,530 DEBUG This message should go to the log file
+2021-10-28 04:19:03,531 INFO So should this
+2021-10-28 04:19:03,531 WARNING And this, too
+2021-10-28 04:19:03,533 INFO The Admin user is connected.
+2021-10-28 04:19:03,537 INFO The Webcam Streamlit Component is opened in the application.
+2021-10-28 10:15:43,106 DEBUG This message should go to the log file
+2021-10-28 10:15:43,106 INFO So should this
+2021-10-28 10:15:43,106 WARNING And this, too
+2021-10-28 10:15:49,102 DEBUG This message should go to the log file
+2021-10-28 10:15:49,103 INFO So should this
+2021-10-28 10:15:49,103 WARNING And this, too
+2021-10-28 10:15:54,436 DEBUG This message should go to the log file
+2021-10-28 10:15:54,436 INFO So should this
+2021-10-28 10:15:54,437 WARNING And this, too
+2021-10-28 10:15:54,608 DEBUG This message should go to the log file
+2021-10-28 10:15:54,608 INFO So should this
+2021-10-28 10:15:54,609 WARNING And this, too
+2021-10-28 10:15:54,612 INFO The Admin user is connected.
+2021-10-28 10:15:54,612 INFO Model loading
+2021-10-28 10:15:55,831 INFO Model loaded
+2021-10-28 10:15:55,831 INFO The confidence value is fixed at 0.80.
+2021-10-28 10:15:57,516 DEBUG This message should go to the log file
+2021-10-28 10:15:57,516 INFO So should this
+2021-10-28 10:15:57,517 WARNING And this, too
+2021-10-28 10:15:57,518 INFO The Admin user is connected.
+2021-10-28 10:15:57,647 INFO The Webcam Streamlit Component is opened in the application.
+2021-10-28 10:15:57,980 DEBUG This message should go to the log file
+2021-10-28 10:15:57,980 INFO So should this
+2021-10-28 10:15:57,980 WARNING And this, too
+2021-10-28 10:15:57,982 INFO The Admin user is connected.
+2021-10-28 10:15:57,983 INFO The Webcam Streamlit Component is opened in the application.
+2021-10-28 10:16:00,924 DEBUG This message should go to the log file
+2021-10-28 10:16:00,924 INFO So should this
+2021-10-28 10:16:00,925 WARNING And this, too
+2021-10-28 10:16:00,927 INFO The Admin user is connected.
+2021-10-28 10:16:01,063 DEBUG This message should go to the log file
+2021-10-28 10:16:01,063 INFO So should this
+2021-10-28 10:16:01,063 WARNING And this, too
+2021-10-28 10:16:01,065 INFO The Admin user is connected.
+2021-10-28 10:16:01,069 INFO The Webcam Streamlit Component is opened in the application.
+2021-10-28 10:16:01,647 DEBUG This message should go to the log file
+2021-10-28 10:16:01,648 INFO So should this
+2021-10-28 10:16:01,648 WARNING And this, too
+2021-10-28 10:16:01,651 INFO The Admin user is connected.
+2021-10-28 10:16:01,654 INFO The Webcam Streamlit Component is opened in the application.
