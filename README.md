@@ -79,8 +79,8 @@ Then you can execute the application through the *streamlit* command
 
 
 # Improvement’s areas
-Deployment on a Cloud Solution like Azure PPP pop pool lol
-   Keep improve the mask detector model performance, particularly on low quality images, or exposed to low luminescence
+Deployment on a Cloud Solution like Microsoft Azure
+Keep improve the mask detector model performance, particularly on low quality images, or exposed to low luminescence
 
 
 # Contact
